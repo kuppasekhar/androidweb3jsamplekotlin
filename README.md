@@ -1,2 +1,8 @@
-# androidweb3jsamplekotlin
-Android web3j example of ethereum wallet creation In Kotlin
+# Android web3j example of ethereum wallet creation
+First, add the following dependencies to your project(app/build.gradle):
+
+implementation 'org.web3j:core:3.3.1-android'
+
+Then use WalletUtils to create a new ethereum wallet into your devie
+
+            val walletPath = WalletUtils.generateFullNewWalletFile("yourownpassword", walletPathFile)
