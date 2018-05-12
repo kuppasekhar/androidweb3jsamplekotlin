@@ -29,6 +29,33 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="133dp"
             android:layout_marginTop="106dp"
-            android:text="Button" />
+            android:text="Create Wallet" />
+
+        <Button
+            android:id="@+id/connectEthereumClientBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/CreateWalletBtn"
+            android:text="Connect Ethereum" />
+
+        <Button
+            android:id="@+id/loadCredentialsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/connectEthereumClientBtn"
+            android:text="Load Credentials" />
+
+        <Button
+            android:id="@+id/transferFundsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/loadCredentialsBtn"
+            android:text="Transfer Funds" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
